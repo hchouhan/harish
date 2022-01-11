@@ -15,3 +15,39 @@ Template: shanti
 Harish WordPress Theme, (C) 2022 Harish Chouhan.
 Harish is distributed under the terms of the GNU GPL.
 */
+
+.wp-block-term-description {}
+
+.align-items-bottom {
+	align-items: flex-end !important;
+}
+
+
+.wp-block-post-featured-image.alignfull img, 
+.wp-block-post-featured-image.alignwide img {
+	width: auto;
+	text-align: center !important;
+}
+
+
+.wp-site-blocks .wp-block-post-featured-image.alignfull {
+	text-align: center !important;
+}
+
+/* .wp-site-blocks > * + * {
+	margin-top: 0;
+} */
+/* 
+.wp-block-post-featured-image img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: bottom;
+	width: 100%;
+}
+.wp-block-post-featured-image img, 
+.alignfull.wp-block-post-featured-image img, 
+.wp-block-post-featured-image.alignwide img {
+   width:  auto !important;
+   text-align: center !important;
+   margin: auto;
+} */
