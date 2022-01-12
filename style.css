@@ -34,6 +34,16 @@ Harish is distributed under the terms of the GNU GPL.
 	text-align: center !important;
 }
 
+.wp-block-query-title {
+	/* display: none; */
+	font-size: var(--wp--custom--typography--font-size--small) !important;
+}
+
+.wp-block-query-title span {
+	font-size: var(--wp--custom--typography--font-size--gigantic) !important;
+	display: block;
+}
+
 /* .wp-site-blocks > * + * {
 	margin-top: 0;
 } */
