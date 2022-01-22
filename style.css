@@ -16,29 +16,78 @@ Harish WordPress Theme, (C) 2022 Harish Chouhan.
 Harish is distributed under the terms of the GNU GPL.
 */
 
+html {
+  scroll-behavior: smooth;
+}
+/* .wp-block-post-template.is-flex-container, .wp-block-query-loop.is-flex-container {
+
+	 gap: 20px !important;
+}
+ */
+
+body.home main {
+	padding-top: 80px;
+}
+
+.wp-site-blocks .wp-block-post-featured-image.alignfull {
+	padding:  0 40px;
+}
+
 .wp-block-term-description {}
 
 .align-items-bottom {
 	align-items: flex-end !important;
 }
 
-.entry-content h2 {
-	margin-top: 40px;
+.full-height {
+	height: 100vh;
 }
 
-.wp-block-separator {
-	opacity: 1;
+.wp-block-cover__image-background {
+	/* height: 100% !important; */
+	object-fit: contain !important;
+	object-position: right bottom !important;
 }
-.wp-block-post-featured-image.alignfull img, 
-.wp-block-post-featured-image.alignwide img {
-	width: auto;
-	text-align: center !important;
+
+.shanti-header-cover {
+	padding: 0;
+}
+.cover-heading {
+	/* bottom: 80px; */
+	/* position: absolute; */
+}
+
+.shanti-header-cover {
+	/* flex: none !important; */
+	/* align-items: unset !important; */
+	/* justify-content: unset !important; */
 }
 
 
-.wp-site-blocks .wp-block-post-featured-image.alignfull {
-	text-align: center !important;
+.shanti-header-cover .wp-block-cover__inner-container {
+	width:  100% !important;
 }
+
+.shanti-header-cover .shanti-cover-text {
+	max-width: clamp(324px, 80vh, 720px);
+	margin-left: 0;
+}
+
+.wp-block-cover-image.is-position-top-left, 
+.wp-block-cover.is-position-top-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+body.category-archives header img.custom-logo {
+	 filter: invert(8%) sepia(100%) saturate(6481%) hue-rotate(246deg) brightness(102%) contrast(143%); 
+}
+
+.wp-block-site-logo img {
+    width: 150px !important;
+    height: 139px !important;
+}
+
 
 .wp-block-query-title {
 	/* display: none; */
